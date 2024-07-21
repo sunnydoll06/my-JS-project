@@ -24,10 +24,6 @@ function setSuccess(element){
     account.classList.remove("error");
 }
 
-function mul(a,b ){
-   return a+b;
-}
-
 function validateInputs(){
     let userInfo = localStorage.getItem("userInfo");
     userInfo = JSON.parse(userInfo);
