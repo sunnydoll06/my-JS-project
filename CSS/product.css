@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 72px;
+    color: rgb(0, 0, 0);
+}
+
+.detail{
+    width: 800px;
+    display: flex;
+    margin: auto;
+}
+
+.picture img{
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.description{
+    position: relative;
+    float: right;
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#name{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#originPrice{
+    font-family: Cambria;
+    font-weight: 200;
+    font-size: 23px;
+    color: rgb(181, 181, 181);
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+#discountPrice{
+    font-family: Cambria;
+    font-weight: 900;
+    font-size: 23px;
+}
+
+.add-to-cart{
+    height: 36px;
+    background-color:rgb(181, 181, 181);
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(132, 132, 132);
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(240, 240, 240);
+    text-align: center;
+    font-size: 16px;
+    margin-top: 36px;
+}
+
+.add-to-cart:hover{
+    background-color: rgb(145, 145, 145);
+}
+
+.add-to-cart img{
+    width: auto;
+    height: 18px;
+    padding-right: 5px;
+}
