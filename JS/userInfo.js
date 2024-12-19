@@ -11,4 +11,6 @@ const userInfo = [
     },
 ];
 
+console.log(JSON.stringify(userInfo));
+
 localStorage.setItem("userInfo", JSON.stringify(userInfo));
