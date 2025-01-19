@@ -1,5 +1,3 @@
-// const { visitFunctionBody } = require("typescript");
-
 if(document.readyState === "loading"){
     document.addEventListener("DOMContentLoaded", ready);
 } else {

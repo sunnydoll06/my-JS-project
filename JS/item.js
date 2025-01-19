@@ -11,7 +11,7 @@ export const items = [
         id: 2,
         img: "images/Product/i029.jpg",
         name: "黑色晚禮服",
-        discount: 8,
+        discount: "8折",
         originPrice: 6000,
         discountPrice: 4800
     },
@@ -19,15 +19,15 @@ export const items = [
         id: 3,
         img: "images/Product/i163.jpg",
         name: "紫色小碎花",
-        discount: null,
-        originPrice: null,
+        discount: "",
+        originPrice: 16000,
         discountPrice: 16000
     },
     {
         id: 4,
         img: "images/Product/i109.jpg",
         name: "攜手走過",
-        discount: "6.6",
+        discount: "6.6折",
         originPrice: 100000,
         discountPrice: 66000
     },
@@ -35,7 +35,7 @@ export const items = [
         id: 5,
         img: "images/Product/i216.jpg",
         name: "日光浴",
-        discount: "null",
+        discount: "",
         originPrice: 23600,
         discountPrice: 23600
     },
@@ -43,7 +43,7 @@ export const items = [
         id: 6,
         img: "images/Product/i032.jpg",
         name: "公主抱抱",
-        discount: "3.6",
+        discount: "3.6折",
         originPrice: 6000,
         discountPrice: 2160
     },

@@ -9,7 +9,7 @@ shoppingCart.addEventListener("mouseout", function resetText2() {shoppingCart.in
 about.addEventListener("mouseover", function changeText3() {about.innerHTML = "About";});
 about.addEventListener("mouseout", function resetText3() {about.innerHTML = "關於";});
 
-import {items} from './item.js';
+import {items} from './newItem.js';
 console.log(items);
 
 let html = "";
@@ -19,7 +19,7 @@ for(let i=0; i<items.length; i++){
             <a href="product.html?id=${items[i].id}">
                 <div class="product-image-row">
                     <img class="product-image" src="${items[i].img}">
-                    <p class="product-discount">${items[i].discount}折</p>
+                    <p class="product-discount">${items[i].discount}</p>
                 </div>
                 <div class="product-information">
                     <a class="product-name">${items[i].name}</a>
@@ -54,7 +54,7 @@ addToCartButtons.forEach(button => {
         setTimeout(function(){
             successMessage.style.display = "none";
         }, 1500);
-     });
+    });
 })
 
 for(let i=0; i<addToCartButtons.length; i++){

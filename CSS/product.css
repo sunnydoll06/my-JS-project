@@ -47,26 +47,70 @@ h1{
     font-size: 23px;
 }
 
-.add-to-cart{
-    height: 36px;
-    background-color:rgb(181, 181, 181);
-    padding: 5px;
+.add-success{
+    width: 100px;
+    display: none;
+    position: fixed;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.9);
     border-radius: 5px;
-    border-color: rgb(132, 132, 132);
-    cursor: pointer;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(240, 240, 240);
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 16px;
-    margin-top: 36px;
 }
 
-.add-to-cart:hover{
+.back{
+    height: 38px;
+    width: 100px;
+    border: 3px solid rgb(167, 167, 167);
+    background-color:rgb(181, 181, 181);
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.back:hover{
+    border: 3px solid rgb(132, 132, 132);
     background-color: rgb(145, 145, 145);
 }
 
-.add-to-cart img{
+.back img{
     width: auto;
-    height: 18px;
+    height: 25px;
     padding-right: 5px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.detail-add-to-cart{
+    background-color:rgb(231, 132, 146);
+    padding: 5px;
+    border: 3px solid rgb(227, 155, 155);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    position: relative;
+    top: 2px;
+}
+
+.detail-add-to-cart img{
+    width: auto;
+    height: 20px;
+}
+
+.detail-add-to-cart:hover{
+    border: 3px solid rgb(231, 132, 146);
+    background-color: rgb(231, 83, 83);
 }

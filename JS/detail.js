@@ -1,50 +1,50 @@
 export const items = [
     {
         id: 1,
-        img: "images/Product/i007.jpg",
-        name: "白紗",
+        img: "images/Product/001.jpg",
+        name: "牛仔馬丁靴",
         originPrice: 10000,
         discountPrice: 6660,
-        description: "白色織線製成, <br/>高級紗線, <br/>新娘首選",
+        description: "特殊牛仔色, <br/>低調帥氣, <br/>不易髒耐穿"
     },
     {
         id: 2,
-        img: "images/Product/i029.jpg",
-        name: "黑色晚禮服",
-        originPrice: 6000,
-        discountPrice: 4800,
-        description: "黑色氣質高雅, <br/>喜歡韓系的新娘必選, <br/>袖子設計不焦慮, <br/>整體大方得體",
+        img: "images/Product/002.jpg",
+        name: "原色馬丁靴",
+        originPrice: 10000,
+        discountPrice: 8000,
+        description: "經典色, <br/>入手首選, <br/>耐穿耐看"
     },
     {
         id: 3,
-        img: "images/Product/i163.jpg",
-        name: "紫色小碎花",
-        originPrice: null,
-        discountPrice: 16000,
-        description: "可愛清新風格, <br/>甜美必備, <br/>小碎花設計, <br/>紫色與眾不同",
+        img: "images/Product/003.jpg",
+        name: "純白高跟鞋",
+        originPrice: 3600,
+        discountPrice: 3600,
+        description: "簡單素雅, <br/>百搭款, <br/>人人必備一雙"
     },
     {
         id: 4,
-        img: "images/Product/i109.jpg",
-        name: "攜手走過",
-        originPrice: 100000,
-        discountPrice: 66000,
-        description: "白紗搭配綠地, <br/>空曠背景襯托, <br/>呈現出兩人欲共度未來的感受",
+        img: "images/Product/004.jpg",
+        name: "撞色球鞋",
+        originPrice: 5000,
+        discountPrice: 3950,
+        description: "色彩鮮豔, <br/>活潑有趣味, <br/>適合喜歡到處遊玩的你"
     },
     {
         id: 5,
-        img: "images/Product/i216.jpg",
-        name: "日光浴",
-        originPrice: 23600,
-        discountPrice: 23600,
-        description: "大太陽底下, <br/>兩人向陽並肩同行, <br/>感受大自然的洗禮",
+        img: "images/Product/005.jpg",
+        name: "綠色高跟鞋",
+        originPrice: 3600,
+        discountPrice: 1600,
+        description: "低調高雅的綠色, <br/>沉穩卻不單調, <br/>為你的裝扮添加一點色彩"
     },
     {
         id: 6,
-        img: "images/Product/i032.jpg",
-        name: "公主抱抱",
-        originPrice: 6000,
-        discountPrice: 2160,
-        description: "最甜蜜的互動, <br/>兩人對視而笑, <br/>捧花點綴, <br/>韓系小清新風格",
+        img: "images/Product/006.jpg",
+        name: "紅色高跟鞋",
+        originPrice: 4200,
+        discountPrice: 2000,
+        description: "鮮艷的色彩, <br/>讓你成為全場焦點, <br/>喜歡受矚目的你千萬別錯過"
     },
 ];
