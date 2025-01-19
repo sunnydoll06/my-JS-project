@@ -7,9 +7,11 @@ h1{
 }
 
 .detail{
-    width: 800px;
+    width: 90%;
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
+    justify-content: center;
 }
 
 .picture img{
@@ -22,7 +24,6 @@ h1{
 .description{
     position: relative;
     float: right;
-    margin-left: 50px;
     font-size: 20px;
     line-height: 30px;
 }
