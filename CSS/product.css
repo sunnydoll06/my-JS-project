@@ -11,14 +11,14 @@ h1{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .picture img{
     width: 350px;
     height: auto;
     padding: 20px;
-    margin-right: 40px;
+    float: left;
 }
 
 .description{
@@ -26,6 +26,8 @@ h1{
     float: right;
     font-size: 20px;
     line-height: 30px;
+    top: 50px;
+    margin-bottom: 100px;
 }
 
 #name{
@@ -83,7 +85,6 @@ h1{
     width: auto;
     height: 25px;
     padding-right: 5px;
-    align-items: center;
     vertical-align: middle;
 }
 
@@ -91,7 +92,6 @@ a{
     text-decoration: none;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
     vertical-align: middle;
 }
 
